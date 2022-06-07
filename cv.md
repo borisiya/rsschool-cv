@@ -33,4 +33,4 @@ Belarusian State University of Informatics and Radioelectronics -
 Faculty of Engineering and Economics
 ## Language:
 + Russian
-+ English (B1)
++ English (A2)
