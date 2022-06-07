@@ -31,3 +31,6 @@ No experience...
 ## Education:
 Belarusian State University of Informatics and Radioelectronics - 
 Faculty of Engineering and Economics
+## Language:
++ Russian
++ English (B1)
