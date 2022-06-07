@@ -1,0 +1,6 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Cabin', sans-serif;
+    margin-left: 200px;
+}
