@@ -1,6 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,600&family=Corinthia&family=Gwendolyn&family=Playfair+Display:wght@500&display=swap');
 body{
+    background-color: RGB(43,43,43);
+    margin: 0;
+	padding: 0;
+}
+#main{
     display: flex;
-    flex-direction: column;
-    font-family: 'Cabin', sans-serif;
+}
+footer{
+    margin-left: 245px;
+    margin-right: 245px;
+    height: 150px;
+    background-color: RGB(43,43,43);
+    color:rgb(219, 214, 96);
+    border-right: 3px solid rgb(219, 214, 96);
+    border-left: 3px solid rgb(219, 214, 96);
+    border-bottom: 3px solid rgb(219, 214, 96);
+    
+}
+article{
+    margin-right: 245px;
+    height: 1137px;
+    background-color: RGB(43,43,43);
+    color:rgb(220, 220, 220);
+    width: 100%;
+    border-right: 3px solid rgb(219, 214, 96);
+    border-bottom: 3px solid rgb(219, 214, 96);
+    font-family: 'Tiro Telugu', sans-serif;
+}
+header{
+    margin-left: 245px;
+    margin-right: 245px;
+    height: 70px;
+    background-color: rgb(219, 214, 96);
+    color:RGB(43,43,43);
+    display: flex;
+    justify-content: space-between;
+}
+aside{
+    height: 1137px;
+    margin-left: 245px;
+    background-color: rgb(219, 214, 96);
+    border-bottom: 3px solid rgb(219, 214, 96);
+}
+.page-link {
+    margin-top: 10px;
+    padding-right: 58px; 
+}
+.all-links{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+/*.all-links:last-child{
+    margin-left: 0px;
+}*/
+.pics{
+    height: 250px;
+    width: 250px;
+    
+}
+.rs{
+    height: 130px;
+    width: 130px;
+}
+ul > li{
+    list-style-type: none;
+}
+.c{
     margin-left: 200px;
+    font-size: 14px;
+}
+.h-aside{
+    margin-left: 10px;
+}
+.contact,.Language{
+    font-size: 17px;
+    margin-left: 1px;
+}
+h3{
+    margin-left: 25px;
+}
+.text{
+    margin-left: 55px;
+}
+.text-ul>li{
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+.article{
+    padding-top: 20px;
+    
+}
+.info{
+    position: relative;
+    top:-15px;
+}
+.location{
+    position: relative;
+    top:-10px;
+    font-family: 'Tiro Telugu', sans-serif;
+}
+.icons{
+    padding-top:33px;
+    height: 65px;
+    width: 65px;
+}
+.icons-git{
+    padding-top:27px;
+    height: 75px;
+    width: 170px;
+}
+.list-icon{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.skill{
+    position: relative;
+    width: 650px;
+    height: 20px;
+    overflow: hidden;
+    background: rgb(220, 220, 220);
+}
+.c-skill{
+    position: relative;
+    width: 200px;
+    height: 20px;
+    overflow: hidden;
+    background: rgb(219, 214, 96);
+}
+.p-skill{
+    position: relative;
+    width: 390px;
+    height: 20px;
+    overflow: hidden;
+    background: rgb(219, 214, 96);
+}
+.h-skill{
+    position: relative;
+    width: 190px;
+    height: 20px;
+    overflow: hidden;
+    background: rgb(219, 214, 96);
+}
+.css-skill{
+    position: relative;
+    width:130px;
+    height: 20px;
+    overflow: hidden;
+    background: rgb(219, 214, 96);
+}
+.m-skill{
+    position: relative;
+    width:340px;
+    height: 20px;
+    overflow: hidden;
+    background: rgb(219, 214, 96);
+}
+.j-skill{
+    position: relative;
+    width:260px;
+    height: 20px;
+    overflow: hidden;
+    background: rgb(219, 214, 96);
+}
+a.l {
+    cursor: pointer;
+    text-decoration: none;
+    color: RGB(43,43,43);
+}
+a.l:after {
+    display: block; 
+    content: ""; 
+    height: 3px; 
+    width: 0%; 
+    background-color: #323232; 
+    transition: width 0.5s ease-in-out; 
+}
+a.l:hover:after,
+a.l:focus:after {
+    width: 100%;
+}
+#line:after{
+    display: block; 
+    content: ""; 
+    height: 3px; 
+    width: 0%; 
+    background-color: rgb(219, 214, 96); 
+    transition: width 0.5s ease-in-out;
+}
+#line:hover:after,
+#line:focus:after {
+    width: 100%;
+}
+#skills:after{
+    display: block; 
+    content: ""; 
+    height: 3px; 
+    width: 0%; 
+    background-color: rgb(219, 214, 96); 
+    transition: width 0.5s ease-in-out;
+}
+#skills:hover:after,
+#skills:focus:after {
+    width: 100%;
 }
