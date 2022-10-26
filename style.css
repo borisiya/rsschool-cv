@@ -134,7 +134,7 @@ h3{
 }
 .p-skill{
     position: relative;
-    width: 390px;
+    width: 340px;
     height: 20px;
     overflow: hidden;
     background: rgb(219, 214, 96);
@@ -155,14 +155,14 @@ h3{
 }
 .m-skill{
     position: relative;
-    width:340px;
+    width:280px;
     height: 20px;
     overflow: hidden;
     background: rgb(219, 214, 96);
 }
 .j-skill{
     position: relative;
-    width:260px;
+    width:240px;
     height: 20px;
     overflow: hidden;
     background: rgb(219, 214, 96);
